@@ -1,0 +1,24 @@
+{
+  "name": "Dog",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "breed": {
+      "type": "string",
+      "required": true
+    },
+    "weight": {
+      "type": "number"
+    },
+    "age": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
