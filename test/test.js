@@ -12,6 +12,6 @@ describe('mixin example', function() {
   });
 
   it('should load the local mixin', function() {
-    assert.ok(app.models.Dog.definition.properties.tag);
+    assert.ok(app.models.Dog.definition.properties.tag, 'missing tag');
   });
 });
