@@ -2,6 +2,7 @@
   "name": "Dog",
   "base": "PersistedModel",
   "idInjection": true,
+  "strict": false,
   "options": {
     "validateUpsert": true
   },
@@ -22,7 +23,8 @@
   "acls": [],
   "methods": [],
   "mixins": {
-    "TimeStamp" : true,
-    "Tag" : true
+    "TimeStamp": true,
+    "Tag": true,
+    "Squirrel": true
   }
 }

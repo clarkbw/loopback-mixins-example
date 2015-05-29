@@ -14,4 +14,14 @@ describe('mixin example', function() {
   it('should load the local mixin', function() {
     assert.ok(app.models.Dog.definition.properties.tag, 'missing tag');
   });
+
+  // this test works when the mixins attribute is not defined in model-config
+  // it('should be assigned `squirrel` before saving', function(done) {
+  //   var Dog = app.models.Dog;
+  //   Dog.create({breed: 'Pitbull'}, function(err, dog) {
+  //     assert.ok(dog.squirrel);
+  //     done();
+  //   });
+  // });
+
 });
