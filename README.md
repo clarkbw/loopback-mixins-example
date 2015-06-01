@@ -12,6 +12,7 @@ This example is a loopback project that uses the mixin functionality available i
 
 
 * It shows how to load a mixin from another npm module:
+
   ```js
     { // this is the server/model-config.json file
       "_meta": {
