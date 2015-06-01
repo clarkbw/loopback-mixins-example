@@ -54,3 +54,4 @@ This example is a loopback project that uses the mixin functionality available i
 * It does **NOT** show mixins being loaded via:
   * loopback-mixins-example/mixins/
 * *To be determined*: What is the individual merit of these 3 separate directories?
+* If you want to dive deeper, head to the discussion happening in this thread: https://github.com/strongloop/loopback/issues/1264
